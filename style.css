@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*========= header  styling started ========= */
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 70px;
+    background-color: #fff;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.material-symbols-outlined {
+    color: rgb(96, 96, 96);
+}
+
+
+.left-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-header img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.left-header i {
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.search-header form {
+    border: 1px solid #ddd;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.search-header input {
+    width: 500px;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+}
+
+.search-header button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    height: 100%;
+}
+
+/*========= header  styling end ========= */
+
+
+
+
+
+
+
+
+
+.main {
+    display: flex;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.left_nav {
+    position: fixed;
+    top: 70px;
+
+    left: 0%;
+    height: 100%;
+    width: 15%;
+    background-color: #fff;
+}
+
+.catgoris_main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.catogory {
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+}
+
+.catogory span {
+    margin-left: 15px;
+}
+
+.catogory:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #e5e5e5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_Container {
+    display: flex;
+    justify-self: right;
+    width: 85%;
+    padding: 40px;
+    background-color: rgba(249, 249, 249, 1);
+    margin-left: 15% !important;
+    height: 100vh;
+}
+
+
+
+.page {
+    display: grid;
+
+    grid-template-columns: 32% 32% 32% ;
+  gap: 24px;
+}
+
+
+
+
+/* .vide_conainer{
+    padding: 10px;
+} */
+.thumnel_heading{
+    display: flex;
+    font-size: 10px;
+   
+}
+.thumnel_heading img{
+    width: 40px;
+    height: 40px;
+}
+.headline_text span{
+    font-size: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
